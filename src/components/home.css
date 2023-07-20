@@ -500,10 +500,6 @@ feImage {
   border-radius: 160px;
   position: relative;
   top: 35rem;
-  box-shadow: -4px -4px 4px 4px rgba(163, 163, 219, 0.5), /* top left */
-       4px -4px 4px 4px rgba(112, 112, 187, 0.5), /* top right */ 
-       -4px 4px 4px 4px rgba(163, 163, 219, 0.5), /* bottom left */ 
-       4px 4px 4px 4px rgba(112, 112, 187, 0.5);
 }
 
 .foot {
@@ -1134,7 +1130,7 @@ video {
 
     .blue-black img {
       width: 19rem;
-      border-radius: 220px;
+      border-radius: 150px;
       position: relative;
       top: 75px;
       display: block;
