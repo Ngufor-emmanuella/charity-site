@@ -1,0 +1,485 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-div {
+  height: 100%;
+}
+
+.head-nav {
+  background-color: #1d344d;
+  color: #fff;
+  display: flex;
+  justify-content:  space-between;
+  align-items: center;
+  height: 3rem;
+}
+
+.heading > h4  {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 20px;
+  padding: 3px;
+}
+
+.heading > h4:hover {
+  color:  #426285;
+}
+
+.second-head {
+  display: flex;
+  align-items: center;
+  justify-content:  space-between;
+}
+
+.input {
+  height: 37px;
+  border-radius: 11px;
+  margin-right: 20px;
+  background-color: rgba(255, 255, 255, 0.75);
+  color: grey;
+  padding-top: 2px;
+  padding-left: 12px;
+  padding-right: 12px;
+  align-items: center;
+  border: 1px solid  rgba(255, 255, 255, 0.75);;
+}
+
+.second-head > h4 {
+  padding-right: 20px;
+}
+
+.main-page {
+  width: 100%;
+}
+.america {
+  background-image: url('../image/american-flag.webp');
+  background-size: cover;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+
+  /* Set the height and position of the element */
+  height: 70px;
+  position: relative;
+
+  background-repeat: no-repeat;
+ 
+}
+
+.papa {
+  height: 100vh;
+    background-position: initial;
+    background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ameri {
+  background-image: linear-gradient(to bottom, rgb(44, 41, 41), rgba(8, 8, 8, 0));
+    height: 9rem;
+    position: relative;
+    bottom: 30px;
+  
+}
+
+.about {
+  background-image: linear-gradient(  #6b9bce,#1d344d, #6b9bce, #063c77) ;
+  width: 100%;
+}
+
+.about-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem 0 2rem;
+  width: 100%;
+}
+
+ .about-text {
+  width: 35%;
+   background-color: #172a3e;
+  border: 1px solid #172a3e;
+} 
+
+.about-text > p {
+  color: #f2f2f2;
+ font-family: "proxima-nova", "Helvetica", "Arial", sans-serif;
+ font-size: 16px;
+ font-weight: 600;
+ word-spacing: 1px;
+ padding: 10px;
+ line-height: 1.5rem;
+}
+
+
+.about-grid {
+  width: 62%;
+  height: 90vh;
+}
+
+.strong {
+  font-size: 19px;
+    font-weight: 600;
+    word-spacing: 1px;
+}
+
+.about > h1 {
+  font-size: 3em;
+    color: white;
+    padding: 0px 0 0 2rem;
+}
+
+.unordered-list {
+  list-style-type: disc;
+  padding-left: 1.3rem;
+}
+
+.nav-links {
+  display: flex;
+    justify-content: right;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 50px;
+}
+
+
+.link-link {
+  padding-right: 31px;
+  padding-left: 31px;
+    color: white;
+    font-weight: 700;
+    font-size: 28px;
+    text-decoration: none;
+    display: block;
+    animation-name: slidein;
+    animation-duration: 3s;
+   
+}
+
+.link-link:hover {
+  border-bottom: 3px solid #063c77;
+  transition: border 1s ease-in-out;
+
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 70%;
+   
+  }
+
+  to {
+    margin-left: 0%;
+    
+  }
+}
+
+
+/* styles for image flips */
+
+.book {
+  position: relative;
+  border-radius: 10px;
+  width: 240px;
+  height: 260px;
+  background-color: whitesmoke;
+  -webkit-box-shadow: 1px 1px 12px #000;
+  box-shadow: 1px 1px 12px #000;
+  -webkit-transform: preserve-3d;
+  -ms-transform: preserve-3d;
+  transform: preserve-3d;
+  -webkit-perspective: 2000px;
+  perspective: 2000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #000;
+}
+
+.cover {
+  top: 0;
+  position: absolute;
+  background-image: linear-gradient( #84b1e2,#203e5e, #77a8dd, #063c77);
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform-origin: 0;
+  -ms-transform-origin: 0;
+  transform-origin: 0;
+  -webkit-box-shadow: 1px 1px 12px #000;
+  box-shadow: 1px 1px 12px #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.book:hover .cover {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: rotatey(-80deg);
+  -ms-transform: rotatey(-80deg);
+  transform: rotatey(-80deg);
+}
+
+feImage {
+  width: 20%;
+  height: 20%;
+}
+
+.flip-cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+
+}
+
+.eating {
+  width: 98%;
+  height: 98%;
+}
+
+.lead {
+  width: 98%;
+  height: 98%;
+
+}
+
+.cover > p {
+  font-weight: 700;
+  font-size: 25px;
+  color: #fff;
+}
+
+
+
+.footer {
+  background-color: #bfbfbf;
+  height: 20rem;
+ 
+}
+
+.foot {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5rem;
+  animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(0.9, 0.9);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+.foot > img {
+  width: 12%;
+  border-radius: 16px;
+  
+}
+
+.footer > p {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 40px;
+
+}
+
+.fallen {
+ 
+  height: 50vh;
+}
+
+/* .media {
+  display: flex;
+ float: right;
+  margin-top: 2rem;
+  
+} */
+
+.media-media {
+ display: flex;
+ margin-left: 0.5rem;
+
+}
+
+.media-media > img {
+  width: 6%;
+  margin-left: 10px;
+  border-radius: 12PX;
+  
+}
+
+.media-m {
+  display: flex;
+}
+
+.media-m p {
+  color: #fff;
+  font-weight: 500;
+  font-size: 25px;
+  width: 48%;
+}
+
+
+.fallen-logo {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3rem;
+  padding-right: 1rem;
+}
+
+.fisher-list {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.5rem;
+  color: #fff;
+
+}
+
+.fisher-fish > h2 {
+  margin-bottom: 1rem;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.fisher-fish > ul {
+  list-style-type: none;
+  
+}
+
+.fisher-fish > ul > li {
+  padding-bottom: 0.8rem;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.fisher-fish > ul > li:hover {
+  color: #429af8;
+  background-color: #d5d8db;
+  border: 1px solid #d5d8db;
+  border-radius: 11px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+.hands {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+
+
+
+.add-img {
+  width: 30%;
+  /* padding-top: -1.5rem; */
+}
+
+video {
+  margin-left: 1rem;
+  border: 2px solid rgba(163, 163, 219, 0.5);
+  border-radius: 150px;
+
+}
+
+.add-img img {
+  width: 65%;
+  margin-top: -1.5rem;
+  margin-left: 2rem;
+  border-radius: 150px;
+  box-shadow: 
+  -4px -4px 4px 4px rgba(163, 163, 219, 0.5), /* top left */
+   4px -4px 4px 4px rgba(112, 112, 187, 0.5), /* top right */
+   -4px 4px 4px 4px rgba(163, 163, 219, 0.5), /* bottom left */
+   4px 4px 4px 4px rgba(112, 112, 187, 0.5); /* bottom right */
+}
+
+.submit-button {
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid  #f1b03b;
+  color: #f1b03b;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease-in;
+  z-index: 1;
+  font-size: 20px;
+  background-color: #fff;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 10px;
+ }
+
+ .submit-button:hover {
+  color: #1f1c1c;
+  font-size: 20px;
+  margin-left: 10px;
+ }
+ 
+ .submit-button::before,
+ .submit-button::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 100%;
+  transform: skew(15deg);
+  transition: all 0.5s;
+  overflow: hidden;
+  z-index: -1;
+  color: #1f1c1c;
+ }
+ 
+ .submit-button::before {
+  left: -10px;
+  background-color: #f1b03b;
+  color: #1f1c1c;
+  
+ }
+ 
+ .submit-button::after {
+  right: -10px;
+  background-color: #c58205;
+  color: #1f1c1c;
+ }
+ 
+ .submit-button:hover::before,
+ .submit-button:hover::after {
+  width: 58%;
+ }
+ 
+ .submit-button:hover span {
+  color: #e0aaff;
+  transition: 0.3s;
+  color: #1f1c1c;
+ }
+ 
+ .submit-button span {
+  background-color: #f1b03b;
+  font-size: 18px;
+  transition: all 0.3s ease-in;
+  color: #1f1c1c;
+ }
