@@ -5,6 +5,7 @@ import america from '../image/american-flag.webp';
 import mendown from '../image/two-men-down.jpg';
 import dollar from '../image/dollar.jpg';
 import trouser from '../image/trouser.jpg';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Contact = () => ( 
   <div clasName="main-div">
@@ -12,13 +13,13 @@ const Contact = () => (
           <div className="heading" ><h4>Covid 19 message</h4></div>
           <div className="second-head">
 
-          <form action="/">
+          
             <input  class="input" type="text" placeholder="Search T & SONS HELPING. org" name="search">
               </input>
-            {/* <button type="submit">Submit</button> */}
-          </form>
+           
+      
           
-            <h4>Log In</h4>
+            <bold className="hambuger"><i class="fa-solid fa-bars"></i></bold>
           </div>
         </div>
 

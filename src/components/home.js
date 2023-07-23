@@ -28,13 +28,13 @@ const Home = () => (
         <div className="heading" ><h4>Covid 19 message</h4></div>
         <div className="second-head">
 
-        <form action="/">
+        
           <input  class="input" type="text" placeholder="Search T & SONS HELPING. org" name="search">
             </input>
           
-        </form>
+      
         
-          <h4>Log In</h4>
+            <bold className="hambuger"><i class="fa-solid fa-bars"></i></bold>
         </div>
       </div>
 

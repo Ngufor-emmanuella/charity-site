@@ -15,6 +15,18 @@ const Navbar = () => (
 
   </div>
 
+  <div className="nav-mobile">
+
+    <Link  className="link-link mobile-nav" to="/">Home </Link>
+
+
+    <Link  className="link-link mobile-nav" to="/about"> About Us</Link>
+
+    <Link   className="link-link mobile-nav" to="/contact"> Contact Us</Link>
+
+  </div>
+
+
  
      <video  src="/videos/round-hands.mp4" width="240" height="240" autoPlay loop muted ></video>
 

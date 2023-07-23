@@ -505,6 +505,28 @@ video {
     width: 100%;
     }
 
+    .nav-mobile {
+      display: block;
+      background-color: #122944;
+      width: 45%;
+      float: right;
+      border-top-left-radius: 6rem;
+      border-bottom-left-radius: 4rem;
+    }
+  
+    .mobile-nav {
+      color: #fff;
+      padding: 0.3rem;
+      font-size: 1rem;
+      text-align: center;
+      display: block;
+    }
+  
+    .mobile-nav:hover {
+      color: #c58205;
+    }
+    
+
 
 
 

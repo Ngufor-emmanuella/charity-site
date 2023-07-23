@@ -713,6 +713,7 @@ video {
  @media screen and (max-width: 768px) {
   .head-nav {
   flex-direction: row;
+  justify-content: space-between;
   height: auto;
   width: 70%;
   }
@@ -743,7 +744,7 @@ video {
   .input {
       height: 25px;
       border-radius: 11px;
-      margin-right: 9px;
+      margin-right: 4rem;
       background-color: rgba(255, 255, 255, 0.75);
       color: grey;
       padding-top: 0px;
@@ -984,7 +985,7 @@ video {
   }
 
   .fisher-fish > h2 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
   
 
@@ -1107,6 +1108,28 @@ video {
     display: none;
   }
 
+  .nav-mobile {
+    display: block;
+    background-color: #122944;
+    width: 45%;
+    float: right;
+    border-top-left-radius: 6rem;
+    border-bottom-left-radius: 4rem;
+  }
+
+  .mobile-nav {
+    color: #fff;
+    padding: 0.3rem;
+    font-size: 1rem;
+    text-align: center;
+    display: block;
+  }
+
+  .mobile-nav:hover {
+    color: #c58205;
+  }
+  
+
   }
 
 
@@ -1164,6 +1187,13 @@ video {
     .media-media {
       margin-left: 0;
     }
+
+    .papa {
+      background-position: initial;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-bottom: 2px solid rgb(44, 41, 41), rgba(8, 8, 8, 0);
+     }
 
    }
   
