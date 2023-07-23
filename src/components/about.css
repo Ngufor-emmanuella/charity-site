@@ -525,6 +525,16 @@ video {
     .mobile-nav:hover {
       color: #c58205;
     }
+
+    .lead {
+      width: 98%;
+      height: 30vh;
+    }
+
+    .eating {
+      width: 98%;
+      height: 30vh;
+    }
     
 
 
