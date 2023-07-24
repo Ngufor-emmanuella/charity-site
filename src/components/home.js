@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState } from 'react';
 import './about.css';
 import './home.css';
 import grandpa from '../image/oldpa-daughter.jpg';
@@ -17,11 +18,16 @@ import facebook from '../image/facebook.jpg';
 import twitter from '../image/twitter.jpg';
 import handing from '../image/Round Hands Design Logo .jpg';
 import { Link } from 'react-router-dom';
-
 import Navbar from './navbar';
 
+const Home = () => {
 
-const Home = () => (
+  const [showNav, setShowNav] = useState(false);
+  const handleHamburgerClick = () => {
+    setShowNav(!showNav);
+  };
+
+     return (
 
     <div className="main-div">
       <div className="head-nav">
@@ -34,7 +40,7 @@ const Home = () => (
           
       
         
-            <bold className="hambuger"><i class="fa-solid fa-bars"></i></bold>
+            <bold className="hambuger" onClick={handleHamburgerClick}><i class="fa-solid fa-bars"></i></bold>
         </div>
       </div>
 
@@ -43,7 +49,11 @@ const Home = () => (
       <div className="america" style={{ backgroundImage: `url(${america})`}}> </div>
      
       <div className="ameri"> 
-      <Navbar />
+      
+
+      {showNav && (
+        <Navbar />
+      )}
 
       </div>
 
@@ -259,5 +269,7 @@ const Home = () => (
 
     </div>
   );
+}
+
 
 export default Home;

@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState } from 'react';
 import './contact.css';
 import Navbar from './navbar';
 import america from '../image/american-flag.webp';
@@ -7,7 +8,14 @@ import dollar from '../image/dollar.jpg';
 import trouser from '../image/trouser.jpg';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
-const Contact = () => ( 
+const Contact = () => { 
+
+  const [showNav, setShowNav] = useState(false);
+  const handleHamburgerClick = () => {
+    setShowNav(!showNav);
+  };
+
+   return ( 
   <div clasName="main-div">
         <div className="head-nav">
           <div className="heading" ><h4>Covid 19 message</h4></div>
@@ -19,7 +27,7 @@ const Contact = () => (
            
       
           
-            <bold className="hambuger"><i class="fa-solid fa-bars"></i></bold>
+            <bold className="hambuger" onClick={handleHamburgerClick}><i class="fa-solid fa-bars"></i></bold>
           </div>
         </div>
 
@@ -27,8 +35,13 @@ const Contact = () => (
         
         <div className="america" style={{ backgroundImage: `url(${america})`}}> </div>
       
-        <div className="ameri"> 
+        <div className="ameri">
+
+
+        {showNav && (
         <Navbar />
+        )}
+      
 
         </div>
 
@@ -109,12 +122,10 @@ const Contact = () => (
 
   </div>
 
-
-
-
-
   </div>
   
   );
+}
+
 
 export default Contact;

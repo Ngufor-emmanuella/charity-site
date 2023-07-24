@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState } from 'react';
 import './about.css';
 import america from '../image/american-flag.webp';
 import lovecouples from '../image/love-couples.jpg';
@@ -24,7 +25,13 @@ import { Link } from 'react-router-dom';
 import Navbar from './navbar';
 
 
-const About = () => (
+const About = () => {
+  const [showNav, setShowNav] = useState(false);
+  const handleHamburgerClick = () => {
+    setShowNav(!showNav);
+  }
+
+  return (
 
     <div clasName="main-div">
       <div className="head-nav">
@@ -35,7 +42,7 @@ const About = () => (
             </input>
           
         
-            <bold className="hambuger"><i class="fa-solid fa-bars"></i></bold>
+            <bold className="hambuger" onClick={handleHamburgerClick}><i class="fa-solid fa-bars"></i></bold>
         </div>
       </div>
 
@@ -44,7 +51,12 @@ const About = () => (
       <div className="america" style={{ backgroundImage: `url(${america})`}}> </div>
      
       <div className="ameri"> 
-      <Navbar />
+      {
+        showNav && (
+          <Navbar />
+        )
+      }
+    
 
       </div>
 
@@ -335,5 +347,6 @@ const About = () => (
 
     </div>
   );
+}
 
 export default About;
