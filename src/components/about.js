@@ -23,6 +23,7 @@ import twitter from '../image/twitter.jpg';
 import handing from '../image/Round Hands Design Logo .jpg';
 import { Link } from 'react-router-dom';
 import Navbar from './navbar';
+import Nav from './nav';
 
 
 const About = () => {
@@ -50,7 +51,10 @@ const About = () => {
       
       <div className="america" style={{ backgroundImage: `url(${america})`}}> </div>
      
-      <div className="ameri"> 
+      <div className="ameri">
+
+      <Nav />
+
       {
         showNav && (
           <Navbar />

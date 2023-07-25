@@ -6,6 +6,7 @@ import america from '../image/american-flag.webp';
 import mendown from '../image/two-men-down.jpg';
 import dollar from '../image/dollar.jpg';
 import trouser from '../image/trouser.jpg';
+import Nav from './nav';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Contact = () => { 
@@ -36,6 +37,8 @@ const Contact = () => {
         <div className="america" style={{ backgroundImage: `url(${america})`}}> </div>
       
         <div className="ameri">
+
+        <Nav />
 
 
         {showNav && (
@@ -75,17 +78,15 @@ const Contact = () => {
 
 
     <form
+      action="https://form.jotform.com/232038769712562"
       method="POST"
-      action="#"
     >
       <input
-        name="entry.739549164"
         type="name"
         placeholder="Name"
         className="second-input"
       />
       <input
-        name="entry.1253042306"
         type="email"
         placeholder="Email address"
         className="second-input"
@@ -95,21 +96,18 @@ const Contact = () => {
         <br />
         <br />
         <select
-          name="entry.218023131_sentinel"
           id="contract"
-          className="select-input"
-        >
-          <option value="Employment Agreement">For Injured Military Soldiers</option>
-          <option value="NDA">For Old / Retired Military Soldiers</option>
-          <option value="Founders Agreement">For Disabled Military Soldiers</option>
+          className="select-input" name="option">
+
+          <option value="For Injured Military Soldiers">For Injured Military Soldiers</option>
+          <option value="For Old / Retired Military Soldiers">For Old / Retired Military Soldiers</option>
+          <option value="For Disabled Military Soldiers">For Disabled Military Soldiers</option>
           <option
-            value="Tenancy Agreement
-"
-          >
+            value="To Support The Family Of The Deceased or Injured Military Soldiers">
             To Support The Family Of The Deceased or Injured Military Soldiers
           </option>
-          <option value="Partnership">Partnership..</option>
-          <option value="Other:">Others:</option>
+          <option value="Partnership...">Partnership..</option>
+          <option value="Others:">Others:</option>
         </select>
       </label>
       <button
