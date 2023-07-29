@@ -51,27 +51,29 @@ const Home = () => {
      
       <div className="ameri">
 
-      <Nav />
+        <Nav />
       
-
-      {showNav && (
+         {showNav && (
         <Navbar />
-      )}
+         )}
 
       </div>
-
-      
+    
       <div className="welcome">
-       
       </div>
 
-      <div className="amer"> 
+      <div>
+          <video autoPlay loop muted> 
+              <source  src="/videos/round-hands.mp4" type="video/mp4"/>
+          </video>
+      </div>
+
+
+      <div className="amer">
+ 
       <h1><span className="color">because   </span> <strong className="white"> A FAMILY'S LOVE  </strong> <span className="color"> is good medicine</span></h1>
 
       </div>
-
-      
-      
 
       </main>
 

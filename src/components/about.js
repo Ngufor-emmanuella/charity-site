@@ -60,17 +60,18 @@ const About = () => {
           <Navbar />
         )
       }
-    
 
       </div>
 
-      
       <div className="welcome">
-       
       </div>
-      
-      
 
+      <div>
+          <video autoPlay loop muted> 
+              <source  src="/videos/round-hands.mp4" type="video/mp4"/>
+          </video>
+        </div>
+      
       </main>
 
       

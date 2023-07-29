@@ -317,13 +317,6 @@ feImage {
   height: 50vh;
 }
 
-/* .media {
-  display: flex;
- float: right;
-  margin-top: 2rem;
-  
-} */
-
 .media-media {
  display: flex;
  margin-left: 0.5rem;
@@ -395,20 +388,16 @@ feImage {
   font-size: 20px;
 }
 
-
-
-
 .add-img {
   width: 30%;
-  /* padding-top: -1.5rem; */
 }
-
+/* 
 video {
   margin-left: 1rem;
   border: 2px solid rgba(163, 163, 219, 0.5);
   border-radius: 150px;
-
-}
+  width: 18rem;
+} */
 
 .add-img img {
   width: 65%;
@@ -540,6 +529,21 @@ video {
       width: 98%;
       height: 30vh;
     }
+
+    /* video {
+      margin-left: 1rem;
+      width: 3.5rem;
+      border: 2px solid rgba(163, 163, 219, 0.5);
+      border-radius: 150px;
+    } */
+
+    video {
+      position: absolute;
+      left: 0.5rem;
+      border-radius: 281rem;
+      width: 3.5rem;
+      top: 3rem;
+     }
     
 
 

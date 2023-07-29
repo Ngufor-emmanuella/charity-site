@@ -13,15 +13,12 @@
     scroll-behavior: smooth;
   }
 
-
 .heading > h4  {
   font-size: 20px;
   font-weight: 600;
   margin-left: 20px;
   padding: 3px;
 }
-
-
 
 .heading > h4:hover {
   color:  #426285;
@@ -258,6 +255,8 @@ strong {
 }
 
 
+
+
 /* Responsive styles for mobile devices */
 
 @media only screen and (max-width: 768px) {
@@ -334,6 +333,15 @@ strong {
   .mobile-nav:hover {
     color: #c58205;
   }
+
+  video {
+    position: absolute;
+    left: 0.5rem;
+    border-radius: 281rem;
+    width: 3rem;
+    top: 3rem;
+  }
+  
   
 
 }
@@ -591,6 +599,12 @@ strong {
   .nav-mobile {
     display: none;
   }
+
+  video {
+    width: 14rem;
+    left: 2rem;
+    top: 6rem;
+  }
    
 }
 
@@ -614,6 +628,12 @@ strong {
   top: -49rem;
 }
 
+video {
+  width: 14rem;
+  left: 2rem;
+  top: 6rem;
+}
+
 }
 
 @media (min-width: 1024px) {
@@ -621,7 +641,12 @@ strong {
     left: 30rem;
     top: 16rem;
   }
-  
+
+  video {
+    width: 14rem;
+    left: 2rem;
+    top: 6rem;
+  }
 
 }
 

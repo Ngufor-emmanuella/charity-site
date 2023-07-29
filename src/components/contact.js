@@ -44,14 +44,19 @@ const Contact = () => {
         {showNav && (
         <Navbar />
         )}
-      
 
         </div>
 
         
         <div className="welcome">
-        
-  </div>
+
+        </div>
+
+        <div>
+          <video autoPlay loop muted> 
+              <source  src="/videos/round-hands.mp4" type="video/mp4"/>
+          </video>
+        </div>
   
   
 
@@ -77,27 +82,19 @@ const Contact = () => {
   </div>
 
 
-    <form
-      action="https://form.jotform.com/232038769712562"
-      method="POST"
-    >
+    <form action="https://formsubmit.co/49a72ce95db7e0be7a29000003e2d001" method="POST">
+
       <input
-        type="name"
-        placeholder="Name"
-        className="second-input"
-      />
-      <input
-        type="email"
-        placeholder="Email address"
-        className="second-input"
-      />
+        type="text" name="Name" placeholder="Full Name" className="second-input" required/>
+     
+      <input type="email" name="Email" placeholder="Email address" className="second-input" required />
+      
       <label htmlFor="contract">
        <strong> What kind of assistance / donation do you want to offer? </strong> 
         <br />
         <br />
-        <select
-          id="contract"
-          className="select-input" name="option">
+
+        <select id="contract" className="select-input" name="Offer">
 
           <option value="For Injured Military Soldiers">For Injured Military Soldiers</option>
           <option value="For Old / Retired Military Soldiers">For Old / Retired Military Soldiers</option>
@@ -110,6 +107,7 @@ const Contact = () => {
           <option value="Others:">Others:</option>
         </select>
       </label>
+      
       <button
         type="submit"
         className="signup-button"
