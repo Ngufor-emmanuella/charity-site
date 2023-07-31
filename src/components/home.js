@@ -2,6 +2,8 @@ import React from 'react';
 import { useState } from 'react';
 import './about.css';
 import './home.css';
+import Navbar from './navBar';
+import Nav from './nav';
 import grandpa from '../image/oldpa-daughter.jpg';
 import america from '../image/american-flag.webp';
 import crippled from '../image/crippled-dad-kids.jpg';
@@ -18,8 +20,6 @@ import facebook from '../image/facebook.jpg';
 import twitter from '../image/twitter.jpg';
 import handing from '../image/Round Hands Design Logo .jpg';
 import { Link } from 'react-router-dom';
-import Navbar from './navbar';
-import Nav from './nav';
 
 const Home = () => {
 

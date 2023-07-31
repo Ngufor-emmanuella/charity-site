@@ -1,13 +1,14 @@
 import React from 'react';
 import { useState } from 'react';
 import './contact.css';
-import Navbar from './navbar';
+import Navbar from './navBar';
 import america from '../image/american-flag.webp';
 import mendown from '../image/two-men-down.jpg';
 import dollar from '../image/dollar.jpg';
 import trouser from '../image/trouser.jpg';
-import Nav from './nav';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import Nav from '../components/nav';
+
 
 const Contact = () => { 
 

@@ -22,7 +22,7 @@ import facebook from '../image/facebook.jpg';
 import twitter from '../image/twitter.jpg';
 import handing from '../image/Round Hands Design Logo .jpg';
 import { Link } from 'react-router-dom';
-import Navbar from './navbar';
+import Navbar from './navBar';
 import Nav from './nav';
 
 
