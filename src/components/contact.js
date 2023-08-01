@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import './contact.css';
-import Navbar from './navBar';
+import NavBar from './navBar';
 import america from '../image/american-flag.webp';
 import mendown from '../image/two-men-down.jpg';
 import dollar from '../image/dollar.jpg';
@@ -43,7 +43,7 @@ const Contact = () => {
 
 
         {showNav && (
-        <Navbar />
+        <NavBar />
         )}
 
         </div>
