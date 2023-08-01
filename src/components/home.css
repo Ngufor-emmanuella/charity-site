@@ -15,8 +15,7 @@ html {
 }
 
 .head-nav {
-  /* background-color: #1d344d; */
-  background-color: pink;
+  background-color: #1d344d;
   color: #fff;
   display: flex;
   justify-content:  space-between;
@@ -716,7 +715,7 @@ video {
   flex-direction: row;
   justify-content: space-between;
   height: auto;
-  width: 70%;
+  width: 100vw;
   }
 
   .house .blue, .house .red, .house .yel {
@@ -725,12 +724,16 @@ video {
   }
 
   .fallen {
-  height: 95vh;
+  height: 100vh;
   }
   
   .heading > h4 {
-  margin-left: 15px;
-  margin-bottom: 5px;
+    .heading > h4 {
+      font-size: 0.8rem;
+      margin-left: 0.5rem;
+      padding: 2px;
+      width: 100%;
+  }
   }
 
   .cover-location p { 
@@ -808,7 +811,7 @@ video {
   .third-div {
     display: flex;
     margin-top: 2rem;
-    width: 100%;
+    width: 100vw;
     }
     
     .flex-pic img {
@@ -847,7 +850,7 @@ video {
     }
 
     .add-img {
-    width: 45%;
+    width: 100vw;
     }
     
    .put-first p {
@@ -864,7 +867,7 @@ video {
     
     .about {
     height: auto;
-    width: 70%;
+    width: 100vw;
     }
     
     .about-boxing {
@@ -923,11 +926,12 @@ video {
     
     .cover-location h4 {
       font-size: 16px;
-      width: 66%;
+      align-self: auto;
+      padding: 0.3rem 0 0.3rem 0;
     }
     
     .media-media > img {
-      width: 10%;
+      width: 20%;
     }
     
     .add-img img {
@@ -940,14 +944,14 @@ video {
   .media-m {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
+    align-items: center;
   }
 
     .submit-button {
       width: 100%;
-      margin: 1rem 0;
+      margin: 0;
       display: inline-block;
       height: 2rem;
       border-radius: 10px;
@@ -955,7 +959,6 @@ video {
       color: #f1b03b;
       position: relative;
       left: 9rem;
-      top: 1rem;
       bottom: 60px;
       overflow: hidden;
       transition: all 0.5s ease-in;
@@ -970,9 +973,9 @@ video {
   .papa {
     height: 26vh;
     background-position: initial;
-    background-size: 70% auto;
+    background-size: 100vw auto;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 100vw;
   }
 
   .fisher-fish > h2 {
@@ -985,7 +988,7 @@ video {
     height: 10rem;
     position: absolute;
     top: 25%;
-    width: 70%;
+    width: 100vw;
   }
 
   .main-div {
@@ -994,7 +997,7 @@ video {
   }
 
   .america {
-    width: 70%;
+    width: 100vw;
     height: 1rem;
   }
 
@@ -1036,7 +1039,7 @@ video {
   .big-box {
     background-color: #172a3e;
     height: 35vh;
-    width: 70vw;
+    width: 100vw;
     border-radius: 5px;
   }
 
@@ -1054,13 +1057,13 @@ video {
     height: 3rem;
     position: relative;
     bottom: 30px;
-    width: 70%;
+    width: 100vw;
   }
 
   .footer {
     background-color: #bfbfbf;
     height: 20rem;
-    width: 70%;
+    width: 100vw;
   }
 
   .footer > p {
@@ -1073,26 +1076,26 @@ video {
     color: #fff;
     font-weight: 500;
     font-size: 1rem;
-    width: 60%;
+    width: 72%;
   }
 
   .media-media {
   display: flex;
-  margin-left: 1.6rem;
+  margin-left: 3.5rem;
   padding-top: 0.7rem;
   }
 
   .fisher-list {
     display: grid;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: minmax(0, 1fr);
-    padding-top: 1.5rem;
     color: #fff;
     position: relative;
-    top: 8rem;
-    right: 2rem;
-    gap: 0.5rem;
+    top: 6rem;
+    right: 3rem;
   }
 
   .fisher-fish .hands {
