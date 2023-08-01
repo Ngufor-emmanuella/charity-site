@@ -15,7 +15,8 @@ html {
 }
 
 .head-nav {
-  background-color: #1d344d;
+  /* background-color: #1d344d; */
+  background-color: pink;
   color: #fff;
   display: flex;
   justify-content:  space-between;
