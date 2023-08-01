@@ -367,7 +367,7 @@ strong {
 
   .coin {
     left: -26rem;
-    top: 39rem;
+    top: 36rem;
   }
 
   .coins {
@@ -381,7 +381,7 @@ strong {
 
   .contact-form {
     background-image: linear-gradient(#6b9bce, #1d344d, #6b9bce, #063c77);
-    width: 70%;
+    width: 100vw;
     height: 100vh;
   }
 }
