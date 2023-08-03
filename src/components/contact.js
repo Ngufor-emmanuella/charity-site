@@ -83,7 +83,7 @@ const Contact = () => {
   </div>
 
 
-    <form action="https://formsubmit.co/49a72ce95db7e0be7a29000003e2d001" method="POST">
+    <form action="https://formsubmit.co/t.sonshelpinghandsfoundation@gmail.com" method="POST">
 
       <input
         type="text" name="Name" placeholder="Full Name" className="second-input" required/>
