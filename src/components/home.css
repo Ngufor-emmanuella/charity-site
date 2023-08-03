@@ -6,6 +6,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 
@@ -988,7 +989,7 @@ video {
     background-image: linear-gradient(to bottom, rgb(24, 27, 54), rgba(118, 152, 224, 0));
     height: 10rem;
     position: absolute;
-    top: 25%;
+    top: 12rem;
     width: 100vw;
   }
 
@@ -999,7 +1000,7 @@ video {
 
   .america {
     width: 100vw;
-    height: 1rem;
+    height: 2rem;
   }
 
   .amer > h1 {

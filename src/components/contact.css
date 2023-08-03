@@ -55,9 +55,8 @@
   background-image: url('../image/american-flag.webp');
   background-size: cover;
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
-  height: 1.5rem;
+  height: 2rem;
   position: relative;
-  /* width: 100%; */
   background-repeat: no-repeat;
  
 }
@@ -293,7 +292,7 @@ strong {
   }
 
   .select-input option {
-    background-color: red;
+    background-color: #6b9bce;
   }
 
   .ameri {
@@ -366,8 +365,8 @@ strong {
   }
 
   .coin {
-    left: -26rem;
-    top: 36rem;
+    left: 4rem;
+    top: 32rem;
   }
 
   .coins {
