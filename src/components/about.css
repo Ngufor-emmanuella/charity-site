@@ -156,7 +156,7 @@ html {
     text-decoration: none;
     display: block;
     animation-name: slidein;
-    animation-duration: 3s;
+    animation-duration: 2s;
    
 }
 
@@ -504,7 +504,7 @@ video {
       width: 45%;
       float: right;
       border-top-left-radius: 6rem;
-      border-bottom-left-radius: 4rem;
+      border-bottom-right-radius: 4rem;
     }
   
     .mobile-nav {

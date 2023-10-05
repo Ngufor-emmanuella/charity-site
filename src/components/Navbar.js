@@ -22,7 +22,7 @@ const NavBar = () => (
 
     <Link  className="link-link mobile-nav" to="/about"> About Us</Link>
 
-    <Link   className="link-link mobile-nav" to="/contact"> Contact Us</Link>
+    <Link   className="link-link mobile-nav" to="/contact"> Contact Us for more</Link>
 
   </div>
  
