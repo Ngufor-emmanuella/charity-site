@@ -113,6 +113,20 @@ html {
   font-weight: 700;
   font-size: 2rem;
   word-spacing: 0.4rem;
+  animation-name: slide-up;
+    animation-duration: 5s;
+}
+
+@keyframes slide-up {
+  from {
+    margin-top: 60%;
+   
+  }
+
+  to {
+    margin-top: 0%;
+    
+  }
 }
 
 .big-box {
@@ -188,8 +202,22 @@ html {
   margin-top: 40px;
   gap: 6px;
   margin-right: 20px;
- 
+  animation-name: slidein;
+  animation-duration: 3s;
 }
+
+@keyframes slidein {
+  from {
+    margin-left: 50%;
+   
+  }
+
+  to {
+    margin-left: 0%;
+    
+  }
+}
+
 
 .fix-fix img {
   border-radius: 8px;
@@ -344,7 +372,7 @@ html {
     text-decoration: none;
     display: block;
     animation-name: slidein;
-    animation-duration: 3s;
+    animation-duration: 2s;
    
 }
 
@@ -556,6 +584,9 @@ feImage {
 
 .media-m {
   display: flex;
+  position: relative;
+  left: 2rem;
+
 }
 
 .media-m p {
@@ -618,6 +649,8 @@ feImage {
 
 .add-img {
   width: 30%;
+  position: relative;
+    left: 6rem;
 }
 
 video {
@@ -638,6 +671,18 @@ video {
    4px -4px 4px 4px rgba(112, 112, 187, 0.5), /* top right */
    -4px 4px 4px 4px rgba(163, 163, 219, 0.5), /* bottom left */
    4px 4px 4px 4px rgba(112, 112, 187, 0.5); /* bottom right */
+}
+
+.new-logo img {
+  width: 100%;
+    margin-left: 1rem;
+    margin-top: 0;
+  border-radius: 150px;
+    box-shadow: -4px -4px 4px 4px rgba(163, 163, 219, 0.5), /* top left */ 4px -4px 4px 4px rgba(112, 112, 187, 0.5), /* top right */ -4px 4px 4px 4px rgba(163, 163, 219, 0.5), /* bottom left */ 4px 4px 4px 4px rgba(112, 112, 187, 0.5);
+    width: 20%;
+    margin-left: 1rem;
+    margin-top: -2.8rem;
+    border-radius: 150px;
 }
 
 .submit-button {
@@ -862,9 +907,10 @@ video {
     
     .blue-black img {
     height: auto;
-    width: 100%;
+    width: 94%;
     border-radius: 140px;
     position: initial;
+    box-shadow: -4px -4px 4px 4px rgba(163, 163, 219, 0.5), /* top left */ 4px -4px 4px 4px rgba(112, 112, 187, 0.5), /* top right */ -4px 4px 4px 4px rgba(163, 163, 219, 0.5), /* bottom left */ 4px 4px 4px 4px rgba(112, 112, 187, 0.5);
     }
 
     .add-img {
@@ -900,12 +946,37 @@ video {
     .about-grid {
     width: 100%;
     height: auto;
+    animation-name: slide-up;
+    animation-duration: 5s;
+    }
+
+    @keyframes slidein {
+      from {
+        margin-right: 50%;
+       
+      }
+    
+      to {
+        margin-right: 0%;
+        
+      }
     }
     
     .about > h1 {
     font-size: 2em;
     padding: 1rem;
     text-align: center;
+    opacity: 0;
+    animation: fadeIn 10s ease-in-out forwards;
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
     }
     
     .nav-links {
@@ -954,7 +1025,7 @@ video {
     
     .add-img img {
       width: 100%;
-      margin-left: 1rem;
+      margin-left: -3rem;
       margin-top: 0;
       top: 123px;
     }
@@ -1142,18 +1213,22 @@ video {
     position: relative;
     top: 6rem;
     right: 3rem;
-    animation-name: slidein;
     animation-duration: 3s;
+    opacity: 0;
+    animation: fadeIn 10s ease-in-out forwards;
   }
 
   @keyframes slidein {
     from {
       margin-left: 70%;
+      opacity: 0;
      
     }
   
     to {
       margin-left: 0%;
+      opacity: 1;
+  
       
     }
   }
@@ -1195,7 +1270,7 @@ video {
     }
 
     .amer {
-      top: 55%;
+      top: 40%;
     }
 
     .cover-location h4 {
@@ -1227,8 +1302,12 @@ video {
     }
 
     .submit-button {
-      top: 0rem;
-      left: 1.5rem;
+
+      top: 5rem;
+      position: absolute;
+      left: 21rem;
+      /* top: 0rem;
+      left: 1.5rem; */
     }
 
     .fallen {
@@ -1237,7 +1316,26 @@ video {
 
     .fisher-list {
       right: 6.5rem;
+    animation-duration: 3s;
+    opacity: 0;
+    animation: fadeIn 10s ease-in-out forwards;
+    top: 11rem;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 70%;
+      opacity: 0;
+     
     }
+  
+    to {
+      margin-left: 0%;
+      opacity: 1;
+  
+      
+    }
+  }
 
     .media-media {
       margin-left: 0;

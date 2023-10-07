@@ -112,6 +112,23 @@ html {
  word-spacing: 1px;
  padding: 10px;
  line-height: 1.5rem;
+    animation-duration: 3s;
+    opacity: 0;
+    animation: fadeIn 10s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    margin-right: 70%;
+    opacity: 0;
+   
+  }
+
+  to {
+    margin-right: 0%;
+    opacity: 1;
+    
+  }
 }
 
 
@@ -353,8 +370,24 @@ feImage {
   justify-content: space-between;
   padding-top: 1.5rem;
   color: #fff;
+  animation-name: slidein;
+  animation-duration: 3s;
+  
+
 
 }
+
+  @keyframes slidein {
+    from {
+      margin-left: 70%;
+     
+    }
+  
+    to {
+      margin-left: 0%;
+      
+    }
+  }
 
 .fisher-fish > h2 {
   margin-bottom: 1rem;

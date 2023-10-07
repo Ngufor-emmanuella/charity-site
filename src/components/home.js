@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { useState } from 'react';
 import './about.css';
@@ -18,7 +19,7 @@ import platinum from '../image/patinum.jpg';
 import instagram from '../image/instagram.jpg';
 import facebook from '../image/facebook.jpg';
 import twitter from '../image/twitter.jpg';
-import handing from '../image/Round Hands Design Logo .jpg';
+import handing from '../image/Round-Hands-Design-Logo.jpg';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -62,10 +63,10 @@ const Home = () => {
       <div className="welcome">
       </div>
 
-      <div>
-          <video autoPlay loop muted> 
-              <source  src="/videos/round-hands.mp4" type="video/mp4"/>
-          </video>
+      <div className="new-logo">
+          
+          <img src={handing} alt="logo for t & sons" />
+
       </div>
 
 

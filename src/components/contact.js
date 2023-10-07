@@ -8,6 +8,7 @@ import dollar from '../image/dollar.jpg';
 import trouser from '../image/trouser.jpg';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Nav from '../components/nav';
+import handing from '../image/Round-Hands-Design-Logo.jpg';
 
 
 const Contact = () => { 
@@ -53,11 +54,16 @@ const Contact = () => {
 
         </div>
 
-        <div>
-          <video autoPlay loop muted> 
-              <source  src="/videos/round-hands.mp4" type="video/mp4"/>
-          </video>
-        </div>
+        <div className="new-logo">
+          
+          <img src={handing} alt="logo for t & sons" />
+
+      </div>
+
+
+
+
+        
   
   
 
