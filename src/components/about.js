@@ -22,7 +22,7 @@ import facebook from '../image/facebook.jpg';
 import twitter from '../image/twitter.jpg';
 import handing from '../image/Round-Hands-Design-Logo.jpg';
 import { Link } from 'react-router-dom';
-import NavBar from './navBar';
+import Navbar from './Navbar';
 import Nav from './nav';
 
 
@@ -57,7 +57,7 @@ const About = () => {
 
       {
         showNav && (
-          <NavBar />
+          <Navbar />
         )
       }
 

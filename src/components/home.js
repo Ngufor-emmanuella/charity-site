@@ -3,7 +3,7 @@ import React from 'react';
 import { useState } from 'react';
 import './about.css';
 import './home.css';
-import NavBar from './navBar';
+import  Navbar from './Navbar';
 import Nav from './nav';
 import grandpa from '../image/oldpa-daughter.jpg';
 import america from '../image/american-flag.webp';
@@ -55,7 +55,7 @@ const Home = () => {
         <Nav />
       
          {showNav && (
-        <NavBar />
+        <Navbar />
          )}
 
       </div>
