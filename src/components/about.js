@@ -20,7 +20,7 @@ import platinum from '../image/patinum.jpg';
 import instagram from '../image/instagram.jpg';
 import facebook from '../image/facebook.jpg';
 import twitter from '../image/twitter.jpg';
-import handing from '../image/Round Hands Design Logo .jpg';
+import handing from '../image/Round-Hands-Design-Logo.jpg';
 import { Link } from 'react-router-dom';
 import NavBar from './navBar';
 import Nav from './nav';
@@ -66,11 +66,12 @@ const About = () => {
       <div className="welcome">
       </div>
 
-      <div>
-          <video autoPlay loop muted> 
-              <source  src="/videos/round-hands.mp4" type="video/mp4"/>
-          </video>
-        </div>
+      <div className="new-logo">
+          
+          <img src={handing} alt="logo for t & sons" />
+
+      </div>
+
       
       </main>
 
@@ -82,7 +83,7 @@ const About = () => {
 
             <div className="about-text">
               <p><strong className="strong">
-              T & SONS HELPING Hands Foundation builds comfort homes where military & veteran families can 
+              T & SONS HELPING HANDS FOUNDATION builds comfort homes where military & veteran families can 
               stay free of charge, while a loved one is in the hospital.
               </strong>
               <br>
@@ -99,7 +100,7 @@ const About = () => {
               </br>
 
 
-              T & SONS HELPING Hands Foundation have up to 21 suites, with private bedrooms and baths. Families share a 
+              T & SONS HELPING HANDS FOUNDATION have up to 21 suites, with private bedrooms and baths. Families share a 
                kitchen, laundry facilities, a warm dining room, and an inviting living room.
                <br>
               </br>
@@ -108,14 +109,14 @@ const About = () => {
 
 
               Since inception, the program has saved military and veterans’ families 
-              an estimated $20 million in out-of-pocket costs for lodging and transportation.
+              an estimated $10 million in out-of-pocket costs for lodging and transportation.
 
               <br>
               </br>
               <br>
               </br>
 
-              T & SONS HELPING Hands Foundation also operates the Hero Miles program, using donated 
+              T & SONS HELPING HANDS FOUNDATION also operates the Hero Miles program, using donated 
               frequent flyer miles to bring family members to the bedside of injured service members as well
                as the Hotels for Heroes program using donated hotel points to allow family members to stay at
               hotels near medical centers without charge. The Foundation also manages a grant program that
@@ -142,7 +143,7 @@ const About = () => {
                 <li> Number of lodging days offered: 1 million + </li>
                 <br>
               </br>
-                <li> 1,000 students have received $2,000,000 in scholarship awards </li>
+                <li> 500 students have received $2,000,000 in scholarship awards </li>
                 <br>
               </br>
                 <li> Over 100 airline tickets provided by Hero Miles to service members and their families, worth nearly $50 million</li>
@@ -345,7 +346,7 @@ const About = () => {
              <img src={platinum} alt="logo" />
           </div>
 
-          <p> &copy; {new Date().getFullYear()} <bold> T & SONS Helping Hands Foundation ...6161 Edsall rd Apt 601 Alexandria VA 22304</bold></p>
+          <p> &copy; {new Date().getFullYear()} <bold> T & SONS HELPING HANDS FOUNDATION ...6161 Edsall rd Apt 601 Alexandria VA 22304</bold></p>
 
           
         </div>

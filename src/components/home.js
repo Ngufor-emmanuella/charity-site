@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { useState } from 'react';
 import './about.css';
@@ -18,7 +19,7 @@ import platinum from '../image/patinum.jpg';
 import instagram from '../image/instagram.jpg';
 import facebook from '../image/facebook.jpg';
 import twitter from '../image/twitter.jpg';
-import handing from '../image/Round Hands Design Logo .jpg';
+import handing from '../image/Round-Hands-Design-Logo.jpg';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -62,10 +63,10 @@ const Home = () => {
       <div className="welcome">
       </div>
 
-      <div>
-          <video autoPlay loop muted> 
-              <source  src="/videos/round-hands.mp4" type="video/mp4"/>
-          </video>
+      <div className="new-logo">
+          
+          <img src={handing} alt="logo for t & sons" />
+
       </div>
 
 
@@ -91,7 +92,7 @@ const Home = () => {
                       
                       <div class="cover-location">
                         <h4>Locations</h4>
-                        <p>Find T & SONS Helping Hands  Foundation</p>
+                        <p>Find T & SONS HELPING HANDS FOUNDATION</p>
                       </div>
               </div>
 
@@ -99,9 +100,9 @@ const Home = () => {
                 <img className="leading2" src={eating} alt="couples kissing" />
                       
                 <div class="cover-location">
-                        <h4>Hero Reflects On T & SONS Foundation</h4>
+                        <h4>Hero Reflects On T & SONS FOUNDATION</h4>
                         <p className="fix-cover"> Mat. Pat Miller was wounded during the Ft.Hood 
-                        shooting and the T & SONS Foundation  was there for his family.</p>
+                        shooting and the T & SONS FOUNDATION  was there for his family.</p>
                 </div>
               </div>
               
@@ -110,9 +111,9 @@ const Home = () => {
                       
                       <div class="cover-location">
                         <h4>Learn More...</h4>
-                        <p>Learn More About T & Sons Helping 
+                        <p>Learn More About T & SONS
                           <br></br>
-                          Hands Foundation.</p>
+                          HELPING HANDS FOUNDATION.</p>
                       </div>
               </div>
 
@@ -127,15 +128,13 @@ const Home = () => {
                 <br></br>
                 <span className="red">Supporting All Veterans </span></li>
 
-                <li className="house big"><b>CFC </b> 
+                
                 <br></br>
-                <span className="yellow bigyel"> <b> #11453 </b> 
-                <br></br>
-                </span></li>
+                
 
                 <li className="house hoho"><b> Rated 4 Stars </b> 
                 <br></br>
-                <span className="blue">19 Years in A Row </span></li>
+                </li>
               </ul>
 
             </div>
@@ -149,7 +148,7 @@ const Home = () => {
               <h2>WE STARTED WITH ONE, NOW WE ARE ON THE ROAD TO 100</h2>
               <div className="overlay"></div>
 
-              <div className="put-first">
+              {/* <div className="put-first">
                 
 
                   <p>ON THE ROAD TO 
@@ -159,7 +158,7 @@ const Home = () => {
                        HANDS FOUNDATION</strong>
                   </p>
 
-              </div>
+              </div> */}
 
             </div>
             <div className="blue-black">
@@ -267,7 +266,7 @@ const Home = () => {
              <img src={platinum} alt="logo" />
           </div>
 
-          <p> &copy; {new Date().getFullYear()} <bold> T & SONS Helping Hands Foundation ...6161 Edsall rd Apt 601 Alexandria VA 22304</bold></p>
+          <p> &copy; {new Date().getFullYear()} <bold> T & SONS HELPING HANDS FOUNDATION ...6161 Edsall rd Apt 601 Alexandria VA 22304</bold></p>
 
           
         </div>
