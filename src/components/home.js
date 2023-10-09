@@ -59,6 +59,8 @@ const Home = () => {
          )}
 
       </div>
+     
+
     
       <div className="welcome">
       </div>
@@ -92,7 +94,7 @@ const Home = () => {
                       
                       <div class="cover-location">
                         <h4>Locations</h4>
-                        <p>Find T & SONS HELPING HANDS FOUNDATION</p>
+                        <p className="find">Find T & SONS HELPING HANDS FOUNDATION</p>
                       </div>
               </div>
 
@@ -100,7 +102,7 @@ const Home = () => {
                 <img className="leading2" src={eating} alt="couples kissing" />
                       
                 <div class="cover-location">
-                        <h4>Hero Reflects On T & SONS FOUNDATION</h4>
+                        <h4 className="hero-reflect second-hero">Hero Reflects On T & SONS FOUNDATION</h4>
                         <p className="fix-cover"> Mat. Pat Miller was wounded during the Ft.Hood 
                         shooting and the T & SONS FOUNDATION  was there for his family.</p>
                 </div>
