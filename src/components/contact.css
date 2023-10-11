@@ -335,6 +335,8 @@ strong {
     float: right;
     border-top-left-radius: 6rem;
     border-bottom-right-radius: 4rem;
+    /* overflow-y: hidden; */
+    overflow: hidden;
   }
 
   .mobile-nav {
