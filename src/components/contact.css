@@ -326,7 +326,7 @@ strong {
   }
 
   .nav-mobile {
-    position: relative;
+    position: fixed;
     z-index: 999;
     display: block;
     background-color: rgb(132, 151, 172); 
