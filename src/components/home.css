@@ -1021,7 +1021,7 @@ video {
     }
 
     .cover-location .hero-reflect {
-      padding-left: 5rem;
+      padding-left: 4rem;
     }
     
     .media-media > img {
@@ -1061,7 +1061,7 @@ video {
       text-decoration: none;
       text-align: center;
       padding-top: 8px;
-      top: -0.5rem;
+      top: 0;
     }
 
   .papa {
